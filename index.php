@@ -5,7 +5,8 @@
  *
  * @package WordPress
  */
-
+define('WP_SITEURL', 'http://Ghiden.io/' . $_SERVER['SERVER_NAME'] . '/wordpress');
+define('WP_HOME',    'http://Ghiden.io/index.php' . $_SERVER['SERVER_NAME']);
 /**
  * Tells WordPress to load the WordPress theme and output it.
  *
